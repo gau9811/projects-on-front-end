@@ -1,0 +1,29 @@
+body{
+   padding-top:50px; 
+}
+
+.flex-sm-fill{
+    background-color: #eee;
+    padding:10px;
+    border:30px;
+
+}
+.nav-pills{
+    border-radius: 5px;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color:transparent;
+}
+
+.jumbotron .btn{
+    padding:15px 25px;
+    font-size: 22px;s
+
+}
+
+.col-lg-4{
+    text-align:center;
+    padding-bottom:5px;
+}

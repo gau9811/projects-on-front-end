@@ -1,0 +1,46 @@
+body{
+  background-image: url(../image/bgbicep.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+background-position:top ;
+background-blend-mode:soft-light;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+h1{
+  color: black;
+  font-size: 3em;
+}
+
+div{
+   background-color: #F04235;
+   width: 400px;
+   margin:0 auto;
+   margin-top:500px;
+   margin-bottom: 350px;
+   border-radius: 250px;
+   text-align: center;
+   border-left-color: black;
+   opacity: 0.8;
+}
+p{
+color: black;
+
+}
+
+
+button{
+  background-color:#E9ECEF;
+  padding: 5px;
+  border-radius:20px;
+  border-right-color: black;
+  border-left-color: black;
+border-top-color: black;
+border-bottom-color: black;
+}
+
+i{
+  font-size: ;
+  background-color: yellow;
+}

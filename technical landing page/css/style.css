@@ -1,0 +1,76 @@
+html{
+    height: 100%;
+
+}
+
+body{
+    background:url(../images/nat.jpg);
+    background-size: cover;
+    background-position: center
+    font-family: 'Catamaran', sans-serif;
+    opacity: 0.8;
+
+}
+
+
+.fa{
+    
+    margin-top: 40px;
+    display: inline-block;
+    padding: 20px;
+    color:black;
+}
+
+.navbar{
+   color:antiquewhite;
+}
+
+.li{
+    color: black;
+
+}
+
+a{
+    color:#8f9395;
+}
+
+h1{
+    margin-top: 70px;
+    padding-right:80px;
+    color:white;
+}
+
+.center{
+    text-align: center
+    padding-top 15%;
+}
+
+p{
+    color:white;
+}
+;
+@media(max-width:768px);{
+    .h1{
+        background-color: #3898ff;
+
+    }
+   
+}
+
+@media (min-width:768px){
+    .h1
+    {
+        background-color:;
+    }
+}
+
+
+
+.dropdown-menu{
+    opacity: 0.6;
+    background-color: #3898ff;
+    min-width: 2px;
+    float: left;
+   
+}
+

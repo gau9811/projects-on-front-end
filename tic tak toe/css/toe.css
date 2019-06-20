@@ -1,0 +1,17 @@
+html ,body{
+    height: 100px;
+     background: purple;
+
+}
+
+#clock{
+   
+    color: #fff;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 70px;
+
+    position:relative;
+    top: 50%;
+    margin-top: 250px;
+    text-align: center;
+}

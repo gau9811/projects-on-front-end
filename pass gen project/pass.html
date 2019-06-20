@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+<link rel="stylesheet" href="css/gen.css">
+<title>Title</title>
+</head>
+<body>
+        <div class="container">
+                <div id="pass">
+                <form action="" name="passGen">
+                    <div class="col-xs-12">
+                    <input type="text" size="18" name="output" class="out" disabled>
+                    <div class="col-xs-10"><input type="button" value="Generate password" class="btn btn-success btn-block mybtn"onclick="populateform(this.form.length.value)"> <br></div>  
+                   <div class="col-xs-2"><strong class="pass">Password Length:</strong> <input class="float-right in" type="text" name="length" size="3" value="6" ></div> 
+                    
+                    </div>
+                </form>
+              </div>
+            </div>
+         
+         
+         <script>
+            
+            var keylist="abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*";
+            var tmp ="";
+            function generatepass(plength){
+              tmp=''
+              for(i=0;i<plength;i++){
+                  tmp+=keylist.charAt(Math.floor(Math.random()*keylist.length))
+              }
+               return tmp
+            }
+            
+            function populateform(enterlength){
+                document.passGen.output.value= generatepass(enterlength)
+            }
+            
+            
+            
+            </script>
+            
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

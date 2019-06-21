@@ -1,0 +1,31 @@
+body{
+    font-family: 'B612 Mono', monospace;
+    padding: 0;
+    margin: 0;
+    background-color: beige; 
+}
+
+
+h1{
+    margin: 40px;
+
+}
+
+#userinput{
+    width: 350px;
+    height: 40px;
+    display: inline-block;
+}
+
+.btn{
+    margin:20px 5px;
+    
+}
+
+.form-control{
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type:none ;
+}

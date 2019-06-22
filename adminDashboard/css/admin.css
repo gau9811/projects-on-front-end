@@ -1,0 +1,26 @@
+body{
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+.flex-column{ margin-top:20px;
+    padding:25px;
+    padding-right:50px;
+}
+
+
+.placeholder{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.placeholders{
+    margin-bottom: 20px;
+
+}
+.placeholder img{
+    display: inline;
+    border:
+}
